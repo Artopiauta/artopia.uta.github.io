@@ -99,14 +99,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-family: 'helvetica' ;
+	font-family: 'helvetica', sans-serif;
 	font-size: 25px;
 	color: black;
 	font-weight: bold;
 	letter-spacing: 5px;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	text-transform: uppercase;
+	font-family: 'helvetica', sans-serif;
+    text-transform: ;
 	color: #ddd;
 	font-weight: 500;
 	font-size: 15px;
@@ -116,10 +117,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 10px 15px 0 15px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #8eb640;
+	color: #c6d7f2;
 }
 .on {
-	background-color: #262626 !important;
+	background-color: chartreuse;
 	padding: 0 !important;
 	padding: 10px 0 !important;
 }
