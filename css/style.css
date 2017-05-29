@@ -226,10 +226,18 @@ header .intro-text {
 #about .about-text {
 	margin-left: 10px;
 }
-#about .about-img {
-	display: inline-block;
-	position: relative;
+
+
+#about .video {
+    position: relative;
+    padding-bottom: 56.25%;
 }
+
+#about .video iframe {
+    width: 100%;
+    height: 100%;
+}
+
 #about .about-img:before {
 	display: block;
 	content: '';
