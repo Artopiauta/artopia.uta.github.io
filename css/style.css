@@ -32,12 +32,11 @@ h5 {
 }
 h6 {
 	font-family: "mr-eaves-modern", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
 	margin: 0 0 0 0;
 	color: #fff;
-	font-size: 42px;
-	letter-spacing: 5px;
-	text-transform: uppercase;
+	font-size: 48px;
+	letter-spacing: 1px;
 }
 p {
 	font-size: 16px;
@@ -79,13 +78,13 @@ ul, ol {
 	moz-padding: 0;
 }
 hr {
-	height: 2px;
+	height: 3px;
 	width: 70px;
 	text-align: center;
 	position: relative;
 	background: #F4CD00;
 	margin: 0;
-	margin-bottom: 0px;
+	margin-top: 5px;
 	border: 0;
 }
 .btn:active, .btn.active {
@@ -160,7 +159,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: rgba(255,255,255,0.8);
 }
 .section-title hr {
-	margin: 0 auto;
+	margin: 5px auto;
 	margin-bottom: 0px;
 }
 .btn-custom {
@@ -171,7 +170,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border: 0;
 	padding: 10px 18px;
 	margin: 0;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 200;
 	letter-spacing: 0.5px;
 	border-radius: 0;
@@ -222,9 +221,69 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+
+/* Mission Statement Text Effect */
+.textanim-container {
+  position: relative;
+  max-width: 500px;
+  min-height: 250px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.textanim-container hr{
+  height: 3px;
+  width: 70px;
+  text-align: center;
+  background: #F4CD00;
+  margin: auto;
+  margin-top: 5px;
+  border: 0;
+}
+
+.textanim-title {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: 0.5s;
+}
+
+.textanim-container:hover .textanim-title {
+  top: 0px;
+  transform: translateY(0);
+}
+
+.textanim-hidden {
+  position: absolute;
+  top: 825px;
+  transition: 1s;
+  text-align: center;
+}
+
+.textanim-container:hover .textanim-hidden {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#about span {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 500;
+}
+
+/* Mission Video */
+#about .mission .videos{
+	width: 100%;
+}
+
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 65px 0 0 0;
 }
 
 #about h3 {
@@ -239,6 +298,8 @@ header .intro-text {
 #about .video {
     position: relative;
     padding-bottom: 56.25%;
+    width: 100%;
+    height: 100%;
 }
 
 #about .video iframe {
@@ -262,6 +323,7 @@ header .intro-text {
 	line-height: 28px;
 	margin: 15px 0 30px;
 }
+
 /* artopia Section */
 #artopia-gallery {
 	padding: 0 0 60px 0;

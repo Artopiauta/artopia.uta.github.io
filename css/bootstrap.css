@@ -1314,6 +1314,9 @@ mark,
   padding: .2em;
   background-color: #fcf8e3;
 }
+.video {
+  width: 100%;
+}
 .text-left {
   text-align: left;
 }
