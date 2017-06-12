@@ -187,7 +187,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-custom {
 	text-transform: ;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
 	color: #fff;
 	background-color: #004A97;
 	border: 3px solid #004A97;
@@ -237,7 +237,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #fff;
 	font-size: 32px;
 	font-weight: 300;
-	margin-top: 10px;
+	margin-top: 80px;
 	margin-bottom: 40px;
 }
 header .intro-text {
@@ -417,6 +417,15 @@ header .intro-text {
 #gallery {
 	padding: 120px 0 120px 0;
 }
+#gallery .gallery-header {	
+	color: #575860;
+	text-align: center;
+	margin: 0 auto 50px auto;
+}
+#gallery .gallery-header hr {	
+	text-align: center;
+	margin: 15px auto auto auto;
+}
 #gallery .section-title {
 	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
 	background-size: cover;
@@ -556,9 +565,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004997', end
 #team .overlay {
 	padding: 120px 0 80px 0;
 }
+#team .section-title {
+	margin-bottom: 50px; 
+}
 #team h2 {
-	color: #eee;
+	color: #f2dd88;
+	font-size: 14px;
 	margin-bottom: 15px;
+}
+#team h5 {
+	color: #eee;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 1px;
 }
 #team p {
 	color: #eee;
@@ -567,18 +585,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004997', end
 	background: #f4cd00;
 	margin: 15px auto;
 }
-#team h3 {
-	color: #fff;
-	font-weight: 400;
-	font-size: 20px;
-	margin: 5px 0;
-}
-#team img {
-	width: 250px;
-	border-radius: 50%;
-	overflow: hidden;
-	margin: 20px auto;
-}
+
 #team .thumbnail {
 	background: transparent;
 	border: 0;
@@ -602,13 +609,85 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004997', end
 }
 #team h6 {
 	color: #fff;
-
+	margin: auto;
+}
+#team .caption h3 {
+    position: relative;
+	padding: 0 10px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 38px;
+	font-weight: 800;
+	color: #fff;
+	letter-spacing: 1px;
+	margin: 25px 0 0 0;
 }
 #team .thumbnail .caption p {
+
     position: relative;
-	color: rgba(255,255,255,0.7);
+	color: rgba(255,255,255,0.9);
 	padding: 0 10px;
-	font-size: 15px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+#team p a {
+	color: #f4cd00;
+}
+
+#team p a:hover {
+	color: #fff;
+}
+
+/* Team Image Hover */
+.container3 {
+  position: relative;
+  width: 250px;
+  margin: auto;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #004a97;
+  border: 3px solid #f4cd00;
+  border-radius: 50%;
+}
+
+.container3:hover .overlay3 {
+  opacity: .7;
+}
+
+.text3 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	line-height: 28px;
+	color: #f4cd00;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
 
 /* Contact Section */
