@@ -732,11 +732,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004997', end
 
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 100px 0;
 	background: #F6F6F6;
 }
 #contact .section-title p {
-	color: #777;
+	color: #999;
+	font-size: 24px;
+	line-height: 38px;
+	margin-top: 5px;
 }
 #contact form {
 	padding: 0;
