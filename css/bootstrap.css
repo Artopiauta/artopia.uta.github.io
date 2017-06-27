@@ -1314,6 +1314,9 @@ mark,
   padding: .2em;
   background-color: #fcf8e3;
 }
+.video {
+  width: 100%;
+}
 .text-left {
   text-align: left;
 }
@@ -1953,7 +1956,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-md-4 {
-    width: 33.33333333%;
+    width: 33.33333333%%;
   }
   .col-md-3 {
     width: 25%;
@@ -4394,7 +4397,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #f8f8f8;
-  border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
   color: #777;
