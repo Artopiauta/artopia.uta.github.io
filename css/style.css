@@ -336,6 +336,8 @@ header .intro-text {
 	margin: 15px 0 30px;
 }
 
+
+
 /* Workshop Section */
 
 #workshops .section-title {
@@ -368,7 +370,7 @@ header .intro-text {
 	margin: -5px 0;
 	font-size: 140px;
 	font-weight: 800;
-	color: rgba(153, 153, 153, .1);
+	color: rgba(153, 153, 153, .4);
 	transform: translateY(-50%);
 	position: absolute;
 	left: 1rem;
@@ -377,7 +379,7 @@ header .intro-text {
 	margin: -5px 0;
 	font-size: 120px;
 	font-weight: 800;
-	color: rgba(153, 153, 153, .1);
+	color: rgba(153, 153, 153, .4);
 	transform: translateY(-50%);
 	position: absolute;
 	left: 1rem;
@@ -551,6 +553,46 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
+
+/* Data Section */
+#data {
+    background: #252626;
+    height: 1500px;
+}
+
+#data h6 {
+    color: aliceblue;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+#data h3 {
+    font-weight: 800;
+    text-align: left;
+}
+
+#data p {
+    font-size: 15px;
+    color: lavender;
+    text-align: left;
+    width: 90%;
+}
+
+#data h1 {
+    color: #f4cd00;
+    text-align: left;
+    font-family: "helvetica";
+    font-size: 8em;
+    font-weight: bold;
+}
+
+.data-item {
+    margin: 0 0 10px;
+    padding: 11px;
+}
+
+
+
 /* Team Section */
 #team {
 	color: #fff;
@@ -626,6 +668,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004997', end
 	margin: 50px 0 0 25px;
 	text-align: left;
 }
+
 #team h8{
 	font-family: "Raleway", sans-serif;
 	font-size: 20px;
@@ -830,14 +873,14 @@ color: #777;
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', endColorstr='#004A97', GradientType=0 ); /* IE6-9 */
 }
 #footer .social {
-	margin: 20px 0 30px 0;
+	margin: 10px 0 30px 0;
 }
 #footer .social ul li {
-	display: block;
+	display: inline-block;
 	margin: 0 20px;
 }
 #footer .social i.fa {
-	font-size: px;
+	font-size: 40px;
 	padding: 4px;
 	color: #fff;
 	transition: all 0.3s;
