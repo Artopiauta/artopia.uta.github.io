@@ -78,6 +78,13 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #222;
 }
+a.one {
+	color: #575860;
+}
+a.one:hover, a.one:focus {
+	text-decoration: none;
+	color: #F4CD00;
+}
 ul, ol {
 	list-style: none;
 }
@@ -370,7 +377,7 @@ header .intro-text {
 	margin: -5px 0;
 	font-size: 140px;
 	font-weight: 800;
-	color: rgba(153, 153, 153, .4);
+	color: rgba(153, 153, 153, .15);
 	transform: translateY(-50%);
 	position: absolute;
 	left: 1rem;
@@ -379,7 +386,7 @@ header .intro-text {
 	margin: -5px 0;
 	font-size: 120px;
 	font-weight: 800;
-	color: rgba(153, 153, 153, .4);
+	color: rgba(153, 153, 153, .15);
 	transform: translateY(-50%);
 	position: absolute;
 	left: 1rem;
@@ -414,6 +421,27 @@ header .intro-text {
 #workshops .artopia-focus-description {
 	font-size: 16px;
 	line-height: 24px;
+}
+#workshops .artopia-focus-description2 p {
+	font-size: 18px;
+	line-height: 28px;
+	color: #575860;
+}
+#workshops  p:first-child:first-letter {
+  color: #575860;
+  float: left;
+  font-family: "Georgia", serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 45px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+#workshops .artopia-focus-description2 p2 {
+	font-size: 18px;
+	line-height: 28px;
+	color: #575860;
 }
 /* Gallery Section */
 #gallery {
