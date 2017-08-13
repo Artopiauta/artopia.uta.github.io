@@ -78,6 +78,13 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #222;
 }
+a.one {
+	color: #575860;
+}
+a.one:hover, a.one:focus {
+	text-decoration: none;
+	color: #F4CD00;
+}
 ul, ol {
 	list-style: none;
 }
@@ -176,6 +183,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .section-title .overlay {
 	padding: 150px 0;
 	background: rgba(0, 0, 0, 0.7);
+}
+.section-title .overlay2 {
+	padding: 150px 0;
 }
 .section-title p {
 	font-size: 22px;
@@ -370,7 +380,7 @@ header .intro-text {
 	margin: -5px 0;
 	font-size: 140px;
 	font-weight: 800;
-	color: rgba(153, 153, 153, .4);
+	color: rgba(153, 153, 153, .15);
 	transform: translateY(-50%);
 	position: absolute;
 	left: 1rem;
@@ -379,13 +389,13 @@ header .intro-text {
 	margin: -5px 0;
 	font-size: 120px;
 	font-weight: 800;
-	color: rgba(153, 153, 153, .4);
+	color: rgba(153, 153, 153, .15);
 	transform: translateY(-50%);
 	position: absolute;
 	left: 1rem;
 }
 #workshops .artopia-section {
-	margin: 0 20px 80px;
+	margin: 0 45px 80px 0;
 }
 #workshops .artopia-section-title {
 	font-size: 20px;
@@ -414,6 +424,27 @@ header .intro-text {
 #workshops .artopia-focus-description {
 	font-size: 16px;
 	line-height: 24px;
+}
+#workshops .artopia-focus-description2 p {
+	font-size: 18px;
+	line-height: 28px;
+	color: #231F20;
+}
+#workshops  p:first-child:first-letter {
+  color: #231F20;
+  float: left;
+  font-family: "Georgia", serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 45px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+#workshops .artopia-focus-description2 p2 {
+	font-size: 18px;
+	line-height: 28px;
+	color: #231F20;
 }
 /* Gallery Section */
 #gallery {
