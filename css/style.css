@@ -616,8 +616,15 @@ margin-top: 100px;
     display: inline-block;
     text-align: center;
 }
-.data-caption img {
+
+.chartimg {
     padding: 40px;
+    max-width: 1200px;
+}
+
+.img2 {
+    max-width: 1000px;
+    margin-bottom: 40px;
 }
 
 /* Team Section */
